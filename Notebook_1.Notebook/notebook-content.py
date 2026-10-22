@@ -39,7 +39,7 @@ df = (
     .option("inferSchema", True)
     .csv(source_path)
 )
-
+# Display Settings
 display(df.limit(10))
 df.printSchema()
 
